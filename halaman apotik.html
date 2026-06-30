@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apotek Sehat Fakfak - Melayani dengan Hati</title>
+    <!-- Tailwind CSS untuk Desain Modern & Responsif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Google untuk Kesan Humanis & Profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white sticky top-0 z-50 shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <!-- Logo Simpel Hijau Putih -->
+                    <div class="bg-emerald-600 text-white p-2.5 rounded-xl shadow-md shadow-emerald-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4" />
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-gray-900 block tracking-tight">APOTEK <span class="text-emerald-600">FAKFAK</span></span>
+                        <span class="text-xs text-gray-500 font-medium block -mt-1">Kabupaten Fakfak, Papua Barat</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                    <a href="#beranda" class="text-emerald-600 border-b-2 border-emerald-600 py-2">Beranda</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-emerald-600 transition">Layanan</a>
+                    <a href="#kontak" class="text-gray-600 hover:text-emerald-600 transition">Hubungi Kami</a>
+                </div>
+                <div class="flex items-center">
+                    <a href="https://wa.me/628123456789" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-xl font-medium text-sm shadow-lg shadow-emerald-100 transition flex items-center space-x-2">
+                        <span>Hubungi Apoteker</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (BACKGROUND FOTO & NAVIGASI UTAMA) -->
+    <section id="beranda" class="relative bg-emerald-900 text-white overflow-hidden min-h-[550px] flex items-center">
+        <!-- Background Image dengan Overlay Hijau Estetik -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&q=80&w=1200" alt="Apotek Pelayanan" class="w-full h-full object-cover object-center opacity-25">
+            <div class="absolute inset-0 bg-gradient-to-r from-emerald-950 via-emerald-900/90 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="max-w-2xl">
+                <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 mb-6">
+                    📍 Hadir di Kota Pala
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-bold tracking-tight leading-tight mb-4">
+                    Mitra Kesehatan Terpercaya Keluarga Anda di Fakfak
+                </h1>
+                <p class="text-lg text-emerald-100/90 mb-8 font-light leading-relaxed">
+                    Menyediakan obat-obatan asli, suplemen berkualitas, dan konsultasi obat gratis bersama apoteker berlisensi untuk seluruh masyarakat Kabupaten Fakfak.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#kontak" class="bg-white text-emerald-900 hover:bg-emerald-50 px-6 py-3.5 rounded-xl font-semibold shadow-md transition text-center w-full sm:w-auto">
+                        Cek Lokasi Apotek
+                    </a>
+                    <a href="#layanan" class="border border-white/30 hover:border-white/60 bg-white/5 px-6 py-3.5 rounded-xl font-semibold transition text-center w-full sm:w-auto">
+                        Pelajari Layanan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFORMASI UTAMA / HIGHLIGHT -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12 relative z-20">
+        <div class="bg-white rounded-2xl shadow-xl border border-gray-100 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-100 overflow-hidden">
+            <div class="p-8 flex items-start space-x-4">
+                <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-1">100% Obat Asli</h4>
+                    <p class="text-sm text-gray-500">Semua produk bersertifikasi BPOM langsung dari distributor resmi.</p>
+                </div>
+            </div>
+            <div class="p-8 flex items-start space-x-4">
+                <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-1">Buka Setiap Hari</h4>
+                    <p class="text-sm text-gray-500">Kami siap melayani kebutuhan medis Anda dari Senin hingga Minggu.</p>
+                </div>
+            </div>
+            <div class="p-8 flex items-start space-x-4">
+                <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-1">Konsultasi Gratis</h4>
+                    <p class="text-sm text-gray-500">Tanyakan aturan pakai dan efek samping obat langsung pada apoteker kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAYANAN UTAMA -->
+    <section id="layanan" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl mb-4">Layanan Kesehatan Kami</h2>
+            <p class="text-gray-600">Lebih dari sekadar menjual obat, kami peduli dengan proses kesembuhan dan kenyamanan transaksional Anda di Fakfak.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:border-emerald-500/30 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+                    01
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Tebus Resep Dokter</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Menerima resep dari Puskesmas, Rumah Sakit Umum Daerah (RSUD) Fakfak, maupun klinik swasta dengan akurasi dosis yang terjamin.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:border-emerald-500/30 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+                    02
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Penyediaan Alat Kesehatan</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Tersedia termometer, alat cek gula darah, tensimeter digital, masker, hingga perlengkapan P3K standar perumahan dan instansi.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:border-emerald-500/30 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+                    03
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Pesan Antar Obat</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Khusus area Kota Fakfak dan sekitarnya, Anda bisa memesan obat via WhatsApp dan kurir kami akan mengantarkannya langsung ke rumah.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFIL / SECTION TENTANG APOTEK DENGAN FOTO -->
+    <section class="bg-emerald-50/50 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <!-- Foto Interior Apotek / Layanan Ramah -->
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" alt="Interior Apotek Bersih" class="rounded-3xl shadow-xl w-full h-[400px] object-cover">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-lg hidden sm:block border border-gray-100 max-w-[220px]">
+                        <p class="text-2xl font-bold text-emerald-600">Terbuka</p>
+                        <p class="text-xs text-gray-500 font-medium mt-1">Untuk seluruh masyarakat Di kota fakfak.</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 tracking-tight sm:text-4xl mb-6">Membangun Fakfak yang Lebih Sehat</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Apotek kami didirikan dengan komitmen tinggi untuk menyediakan akses obat-obatan esensial yang merata di wilayah Kabupaten Fakfak. Kami memahami pentingnya ketersediaan obat yang cepat dan terhindar dari kelangkaan tanpa harus mengorbankan kualitas pelayanan.
+                    </p>
+                    <div class="border-l-4 border-emerald-600 pl-4 italic text-gray-700 font-medium">
+                        "Kesehatan masyarakat Fakfak adalah prioritas utama kami. Kami memastikan setiap lembar resep yang masuk diperiksa dengan teliti demi keamanan pasien."
+                    </div>
+                    <p class="text-sm font-semibold text-emerald-700 mt-2">— apt.Rudin,S.Si..M.Kes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK & LOKASI -->
+    <section id="kontak" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl p-8 md:p-12 border border-gray-100 shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Hubungi & Kunjungi Kami</h3>
+                <p class="text-gray-600 text-sm mb-8">Punya pertanyaan seputar ketersediaan stok obat? Silakan hubungi kami atau datang langsung ke alamat di bawah ini.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl mt-1">
+                            <svg xmlns="http://www.w3.org/2000/xl" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-gray-900 text-sm">Alamat wagom </h5>
+                            <p class="text-gray-600 text-sm mt-1">Jl. jendral sudirman kode Pos 98611</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-gray-900 text-sm">WhatsApp /Layanan Antar</h5>
+                            <p class="text-emerald-600 text-sm font-semibold mt-1">+62 812-4847-5506</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-gray-900 text-sm">Jam Operasional</h5>
+                            <p class="text-gray-600 text-sm mt-1">Senin - Sabtu: 07.30 - 21.30 WIT<br>Minggu / Hari Libur: 09.00 - 18.00 WIT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulir Kontak Cepat -->
+            <div class="bg-gray-50 p-6 sm:p-8 rounded-2xl border border-gray-200/60 flex flex-col justify-between">
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4 text-base">Tanya Stok Obat / Konsultasi</h4>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Nama Lengkap</label>
+                            <input type="text" placeholder="Masukkan nama Anda" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Nama Obat / Keluhan</label>
+                            <textarea rows="3" placeholder="Tulis nama obat yang dicari atau keluhan Anda..." class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 transition"></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 rounded-xl text-sm transition">
+                            Kirim Pertanyaan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t border-gray-100 py-8 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p>&copy; 2026 Apotek Fakfak. Seluruh Hak Cipta Dilindungi.</p>
+            <p class="mt-1">Melayani kesehatan masyarakat Kabupaten Fakfak dengan integritas dan ketulusan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
